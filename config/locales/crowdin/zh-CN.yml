@@ -2117,7 +2117,7 @@ zh-CN:
   setting_mail_handler_body_delimiter_regex: "清空符合此正则表达式的电子邮件"
   setting_mail_handler_ignore_filenames: "忽略的邮件附件"
   setting_new_project_user_role_id: "给创建项目的非管理员用户的角色"
-  setting_password_active_rules: "激活支付类型"
+  setting_password_active_rules: "有效字符类型"
   setting_password_count_former_banned: "禁止重复使用最近使用密码的数量"
   setting_password_days_valid: "数天之后，用以强制更改密码"
   setting_password_min_length: "最小长度"
