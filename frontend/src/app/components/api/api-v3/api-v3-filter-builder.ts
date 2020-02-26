@@ -58,7 +58,7 @@ export class ApiV3FilterBuilder {
       return this.serializeFilter(filter);
     });
 
-    return `filters=${encodeURI(`[${transformedFilters.join(',')}]`)}`;
+    return new URLSearchParams({ filters: `[${transformedFilters.join(",")}]` }).toString();
   }
 
   private serializeFilter(filter:ApiV3Filter) {
